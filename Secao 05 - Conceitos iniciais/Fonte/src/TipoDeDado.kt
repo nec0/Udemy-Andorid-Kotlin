@@ -36,6 +36,12 @@ fun main() {
     val n3 = 13 // Número inteiro, caso caiba dentro do Int, será inteiro
     val n4 = 13L // Long
     val n5 = 13 // Não existe sufixo para Byte, caso deseje um tipo Byte, deve ser explícito
+
+    // É possível restringir apenas para dados positivos e inteiros, com Unsigned
+    val n2: Uint = 10u
+    val n4: UByte = 13u
+    val n5: UShort = 13u
+    val n5: ULong = 13u
 }
 
 /**

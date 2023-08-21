@@ -3,8 +3,7 @@ fun main() {
     val kotlin = "Kotlin " + "é show"
     println(kotlin)
 
-    val nome = "Charles " +
-            "Babbage"
+    val nome = "Charles " + "Babbage"
 
     // Uso do $ para concatenar String se chama interpolação
     println("Nome é $nome")

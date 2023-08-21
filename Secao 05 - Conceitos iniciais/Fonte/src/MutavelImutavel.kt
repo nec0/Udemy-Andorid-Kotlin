@@ -1,9 +1,10 @@
 /**
- * Variáveis mutáveis pode ter seu valor alterado.
- * Variáveis imutáveis não podems ter seu valor alterado.
+ * Variáveis mutáveis (var) pode ter seu valor alterado.
+ * Variáveis imutáveis (val) não podem ter seu valor alterado.
  *
  * Dicas
- * Kotlin sempre sugere que seja feito o uso de variáveis 'val' ao invés de 'var'. 2 motivos:
+ * Kotlin sempre sugere que seja feito o uso de variáveis 'val' ao invés de 'var'.
+ * 2 motivos:
  * 1. Ao usar uma variável 'val' que não tenha sido atribuída, acontece erro de compilação
  * 2. É mais fácil saber qual o valor da variável, é mais controlável
  */

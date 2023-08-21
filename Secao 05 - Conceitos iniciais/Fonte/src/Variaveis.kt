@@ -8,10 +8,10 @@
  */
 fun main() {
 
-    // Variável do tipo String explicitamente declarada
+    // Variável do tipo String com tipo explicitamente declarado
     var nome: String = "Jane"
 
-    // Variável sem definição de tipo. Kotlin faz a inferência.
+    // Variável sem definição/declaração de tipo. Kotlin faz a inferência.
     var nome1 = "Jane"
 
     // Usando variável nome
